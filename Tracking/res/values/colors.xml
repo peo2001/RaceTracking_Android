@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bianco">#FFFFFF</color>
+	<color name="darkAzzurro">#0099CC</color>
+	<color name="lightAzzurro">#33B5E5</color>
+	<color name="redError">#ffcc0000</color>
+	<color name="biancoAlpha">#66FFFFFF</color>
+	<color name="grigioNomeGara">#8f8f8f</color>
+</resources>

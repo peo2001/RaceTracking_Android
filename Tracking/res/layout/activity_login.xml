@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent" 
+    android:layout_width="fill_parent" 
+    android:layout_gravity="fill_horizontal" 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/rootViewLogin"
+    android:orientation="vertical"
+    >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/tracking" />
+        
+    </LinearLayout>
+    
+    <TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/codice"
+	    android:id="@+id/Label"
+	    />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+		<EditText
+	    	android:id="@+id/Codice"
+	    	android:layout_height="40dp"
+	    	android:layout_width="0dp"
+	    	android:layout_gravity="fill_horizontal"
+	    	android:selectAllOnFocus="true"
+	    	android:lines="1"
+	    	android:hint="@string/insertCodice" 
+	    	android:inputType="text" 
+	    	android:layout_weight="5"
+	    	android:maxLength="6">
+	    	</EditText>
+	    	
+		<Button 
+			android:id="@+id/Login"
+			android:layout_height="40dp"
+			android:layout_width="0dp"
+			android:layout_gravity="fill_horizontal"
+			android:text="@string/accedi"
+			android:layout_weight="2"
+			 />
+	</LinearLayout>
+
+
+	<LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" 
+        android:orientation="horizontal" 
+        android:layout_width="wrap_content"
+        android:paddingTop="10dp"
+        >
+
+		<TextView
+		    android:id="@+id/txtLoginError"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="@string/errorCodeNonInserito"
+		    android:textAppearance="?android:attr/textAppearanceMedium"
+		    android:textColor="@color/redError"
+		    android:visibility="invisible" />
+	    
+	</LinearLayout>
+	
+	
+	<RelativeLayout 
+  		android:layout_width="fill_parent"
+  		android:layout_height="wrap_content">
+		<!-- Footer Start -->
+  		<!-- Footer Ends -->
+
+  		<LinearLayout
+  		    android:orientation="vertical"
+  		    android:id="@+id/footer"
+  		    android:layout_width="fill_parent"
+  		    android:layout_height="50dp"
+  		    android:layout_alignParentBottom="true"
+  		    android:layout_alignParentLeft="true"
+  		    android:background="@layout/footer_repeat" >
+  		</LinearLayout>
+
+  	</RelativeLayout>
+</LinearLayout>

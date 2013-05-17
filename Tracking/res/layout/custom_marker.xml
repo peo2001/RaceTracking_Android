@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+ 
+    <ImageView
+        android:id="@+id/imgMarker"
+        android:layout_width="55dp"
+        android:layout_height="65dp"
+        android:src="@drawable/mot"
+        android:contentDescription="@string/empty" />
+ 
+    <TextView
+        android:id="@+id/txtMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/empty"
+        android:textColor="@color/bianco"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+ 
+</RelativeLayout>

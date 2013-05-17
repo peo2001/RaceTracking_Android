@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tracking</string>
+    <string name="action_settings">Settings</string>
+    <string name="codice">Codice Gara</string>
+    <string name="insertCodice">Inserisci il codice &#8230;</string>
+    <string name="ricordami">Ricordami</string>
+    <string name="accedi">Accedi</string>
+    <string name="clear">Cancella</string>
+    <string name="errorCodeNonInserito">Devi inserire il codice evento!</string>
+    <string name="title_activity_map">MapActivity</string>
+    <string name="LogOut">Log Out</string>
+    <string name="Avviso">Avviso</string>
+    <string name="MsgAvvisoConnessione">Connessione non Disponibile!</string>
+    <string name="GaraName">Nome della Gara</string>
+    <string name="ImgMapContentDescription"></string>
+    <string name="ErroreNoXml">Impossibile eseguire la richiesta. Controlla la connessione</string>
+    <string name="title_activity_track">Track</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="playServiceError">Per utilizzare l\'applicazione devi avere le Google Play services!</string>
+    <string name="loginFailed">Login Fallito!</string>
+    <string name="loginGaraToStart">La gara inizierà il %1$s!</string>
+    <string name="loginGaraEnded">La gare è terminata il %1$s!</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="empty"></string>
+	<string name="abortGetGara">Si è verivicato un Problema nel recupero della Gara</string>
+	<string name="abortGetTracking">Si è verivicato un Problema nel Tracciamento</string>
+	<string name="GaraTerminata">La gara è Finita</string>
+	<string name="oraIniziale">00:00</string>
+</resources>
