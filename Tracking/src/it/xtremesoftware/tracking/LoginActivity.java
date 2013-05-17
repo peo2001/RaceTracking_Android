@@ -21,7 +21,7 @@ import it.xtremesoftware.tracking.Util.MyApplication;
 
 public class LoginActivity extends Activity {
 	private static final String LOG_TITLE= "LoginActivity";
-	//PIPPO
+	//PIPPO PAPPA
 	private static Handler mHandler;
 	
 	TextView txtLoginError;
