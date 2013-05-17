@@ -30,7 +30,7 @@
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_GPS" /> 
-    <!--  -->
+    <!-- il mio commento  -->
 
     <application
         android:name="it.xtremesoftware.tracking.Util.MyApplication"
@@ -60,5 +60,5 @@
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyDEW05upYS8SBqq6dE8ivTwI932TykcK_g" />
     </application>
-
+	<!-- MAX -->
 </manifest>
